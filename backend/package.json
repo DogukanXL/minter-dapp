@@ -1,9 +1,11 @@
 {
-  "name": "minter-dapp-backend",
+  "name": "quit",
   "version": "0.1.0",
   "description": "Generate an NFT collection and deploy a minting dapp easy!!",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "minter-dapp-backend": "index.js"
+  },
   "pkg": {
     "assets": [
       "layers/**/*",
@@ -54,5 +56,6 @@
     "puppeteer-extra-plugin-stealth": "^2.9.0",
     "sha1": "^1.1.1",
     "yesno": "^0.3.1"
-  }
+  },
+  "devDependencies": {}
 }
