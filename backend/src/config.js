@@ -51,8 +51,8 @@ const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
 const CONTRACT_NAME = 'BANANADENEME';
 const CONTRACT_SYMBOL = 'BD';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xD251267d263E792f85ef3d7102038A38d397C0Cc';
-const TREASURY_ADDRESS = '0xD251267d263E792f85ef3d7102038A38d397C0Cc';
+const OWNER_ADDRESS = '0x36819877c03bB3Cd1ac767e9e6b2aEfDfe55C752';
+const TREASURY_ADDRESS = '0x36819877c03bB3Cd1ac767e9e6b2aEfDfe55C752';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.01; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
@@ -63,10 +63,10 @@ const PUBLIC_MINT_START_DATE = "2022-03-20T11:30:48+00:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xD251267d263E792f85ef3d7102038A38d397C0Cc"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x36819877c03bB3Cd1ac767e9e6b2aEfDfe55C752"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0xD251267d263E792f85ef3d7102038A38d397C0Cc"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["00x36819877c03bB3Cd1ac767e9e6b2aEfDfe55C752"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
