@@ -1,7 +1,7 @@
-const contractAddress = "0x4D1e5DA50e34c0F15804906376258bc2eA5A8bA2"; // Replace with your own contract address
+const contractAddress = "0xEa7637Bb3EF035e54d9d36F5cBcFf11C769fBF1b"; // Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
-const welcome_h1 = "Deneme Muz Projesine Hosgeldin DAYI :D !";
+const welcome_h1 = "HOSGELDIN DAYI :D";
 const welcome_h2 = "Connect to MetaMask to Get Started";
 const welcome_p = 'DAYI DENEME SITEMIZ NASIL OLMUS? :D ';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
